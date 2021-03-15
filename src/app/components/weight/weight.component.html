@@ -1,5 +1,9 @@
-<label>
+<label class="White">
   Weight in lbs
-  <input type="number" name=[weight]   (change)="setWeight($event)" >
 </label>
-<p>Weight:{{WeightInput}}lbs</p>
+<div class="columns">
+  <div class="column is-one-quarter">
+    <input class="input" type="number" name=[weight]   (change)="setWeight($event)" >
+    <p class="White">Weight:{{WeightInput}}lbs</p>
+  </div>
+</div>

@@ -1,12 +1,18 @@
-<label>
+<label class="white">
   Drinks
-  <select name="Drinks" (change)="setDrink($event)">
-    <option value="Beer"> draft beer pint </option>
-    <option value="Craft"> craft beer(higher a) </option>
-    <option value="Wine"> wine glass </option>
-    <option value="Cocktail"> cocktail </option>
-    <option value="Rocks"> on the rocks </option>
-    <option value="Shot"> Shot </option>
-  </select>
 </label>
-<p>Drink:{{Drink}}</p>
+<div class="columns">
+  <div class="column is-one-quarter">
+    <div class="select">
+      <select name="Drinks" (change)="setDrink($event)">
+        <option value="Beer"> draft beer pint </option>
+        <option value="Craft"> craft beer(higher a) </option>
+        <option value="Wine"> wine glass </option>
+        <option value="Cocktail"> cocktail </option>
+        <option value="Rocks"> on the rocks </option>
+        <option value="Shot"> Shot </option>
+      </select>
+    </div>
+    <p class="White">Drink:{{Drink}}</p>
+  </div>
+</div>
