@@ -1,0 +1,10 @@
+<label>
+  Custom Drink
+  <input type="text" placeholder="Drink name"(change)="setDrink($event)">
+  <input type="number" placeholder="percent alcohol" (change)="setPercent($event)">
+  <input type="number" placeholder="size in ounces" (change)="setSize($event)">
+</label>
+<p>
+  Custom Drink:{{name}},{{percent}}%,{{size}}oz
+</p>
+<button (click)=setCustom()>Add Custom Drink</button>
