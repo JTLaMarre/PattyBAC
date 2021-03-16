@@ -16,6 +16,9 @@ export class CalcComponent implements OnInit {
   getBAC(){
     this.BACS.calcBAC();
     this.BAC=this.BACS.calcBAC();
+    if(parseInt(this.BAC) > 0.08){
+      alert("Baby got BAC");
+    }
   }
 
 }

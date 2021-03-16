@@ -26,6 +26,7 @@ export class BACService {
       // BAC = [Alcohol consumed in grams / (Body weight in grams x R)] X 100
       console.log("BAC:"+(this.AlcoholInG/WeightGs)*100)
       let num = (this.AlcoholInG/WeightGs)*100;
+
       return num.toFixed(2);
     }
   }
