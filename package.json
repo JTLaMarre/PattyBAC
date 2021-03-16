@@ -1,5 +1,5 @@
 {
-  "name": "bac",
+  "name": "patty-bac",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -45,5 +45,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.2"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
   }
 }
