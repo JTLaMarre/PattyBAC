@@ -1,3 +1,10 @@
+# Use-Deployed
+input weight, make sure sex is correct, then either pick a pre-set us standard drink, or create a custom drink, then click Drink
+
+# Deployed
+https://patty-bac.herokuapp.com/
+
+
 # BAC
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
