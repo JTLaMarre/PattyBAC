@@ -10,7 +10,8 @@ export interface State{
 }
 export const initialState:State = {
   BAC: 0.00,
-  Drinks:0
+  Drinks:0,
+  LastDrink:0
 }
 
 const _BACreducer = createReducer(
